@@ -26,9 +26,10 @@ function allNickNGenerator() {
     let firstName = inputEl.value;
     let lastName = input2El.value;
     let divStr = "";
-    for (let i = 0; i < nickname.length; i++);
-    divStr += `<div> ${firstName} "${nickname[i]}" ${lastName} </div>`;
-    containerEl.innerHTML = divStr
+    for (let i = 0; i < nickname.length; i++) {
+        divStr += `<div>  ${firstName}  "${nickname[i]}"  ${lastName} </div>`;
+    }
+    containerEl.innerHTML = divStr;
 }
 
 function randNickNGenerator() {
